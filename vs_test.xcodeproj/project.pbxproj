@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20A09601CC98FCE008BEAF1 /* ConnectToServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A095F1CC98FCE008BEAF1 /* ConnectToServer.m */; };
+		E20E35CF1CC624BF00F8A06A /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E20E35CE1CC624BF00F8A06A /* HomeCell.m */; };
+		E2233B151CBCF56800A5AA68 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E2233B141CBCF56800A5AA68 /* NSString+MD5.m */; };
+		E2233B181CBDB14100A5AA68 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2233B171CBDB14100A5AA68 /* LoginViewController.m */; };
+		E2233B1B1CBDB21900A5AA68 /* TabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2233B1A1CBDB21900A5AA68 /* TabBarControllerViewController.m */; };
+		E23A3C801CC0D76500E44054 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23A3C7F1CC0D76500E44054 /* PreferencesViewController.m */; };
+		E23A3C831CC0E4B400E44054 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23A3C821CC0E4B400E44054 /* RegistrationViewController.m */; };
+		E251B6921CA3F84400275B43 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E251B6901CA3F84400275B43 /* HomeViewController.m */; };
 		E255FF531C8855920031CB9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF521C8855920031CB9F /* Foundation.framework */; };
 		E255FF551C8855920031CB9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF541C8855920031CB9F /* CoreGraphics.framework */; };
 		E255FF571C8855920031CB9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF561C8855920031CB9F /* UIKit.framework */; };
@@ -15,14 +23,14 @@
 		E255FF631C8855920031CB9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E255FF621C8855920031CB9F /* AppDelegate.m */; };
 		E255FF661C8855920031CB9F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E255FF641C8855920031CB9F /* Main_iPhone.storyboard */; };
 		E255FF691C8855920031CB9F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E255FF671C8855920031CB9F /* Main_iPad.storyboard */; };
-		E255FF6C1C8855920031CB9F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E255FF6B1C8855920031CB9F /* FirstViewController.m */; };
-		E255FF6F1C8855920031CB9F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E255FF6E1C8855920031CB9F /* SecondViewController.m */; };
 		E255FF711C8855920031CB9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E255FF701C8855920031CB9F /* Images.xcassets */; };
 		E255FF781C8855930031CB9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF771C8855930031CB9F /* XCTest.framework */; };
 		E255FF791C8855930031CB9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF521C8855920031CB9F /* Foundation.framework */; };
 		E255FF7A1C8855930031CB9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255FF561C8855920031CB9F /* UIKit.framework */; };
 		E255FF821C8855930031CB9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E255FF801C8855930031CB9F /* InfoPlist.strings */; };
 		E255FF841C8855930031CB9F /* vs_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E255FF831C8855930031CB9F /* vs_testTests.m */; };
+		E255FF8F1C885AC80031CB9F /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E255FF8E1C885AC80031CB9F /* TapViewController.m */; };
+		E26C18B91CA5CC9E00E43DC8 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E26C18B71CA5CC9E00E43DC8 /* Data.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20A095E1CC98FCE008BEAF1 /* ConnectToServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectToServer.h; sourceTree = "<group>"; };
+		E20A095F1CC98FCE008BEAF1 /* ConnectToServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectToServer.m; sourceTree = "<group>"; };
+		E20E35CD1CC624BF00F8A06A /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		E20E35CE1CC624BF00F8A06A /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		E2233B131CBCF56800A5AA68 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E2233B141CBCF56800A5AA68 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		E2233B161CBDB14100A5AA68 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E2233B171CBDB14100A5AA68 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E2233B191CBDB21900A5AA68 /* TabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerViewController.h; sourceTree = "<group>"; };
+		E2233B1A1CBDB21900A5AA68 /* TabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerViewController.m; sourceTree = "<group>"; };
+		E23A3C7E1CC0D76500E44054 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		E23A3C7F1CC0D76500E44054 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		E23A3C811CC0E4B400E44054 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		E23A3C821CC0E4B400E44054 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		E251B68F1CA3F84400275B43 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E251B6901CA3F84400275B43 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E255FF4F1C8855920031CB9F /* vs_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vs_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E255FF521C8855920031CB9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E255FF541C8855920031CB9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,16 +72,15 @@
 		E255FF621C8855920031CB9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E255FF651C8855920031CB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E255FF681C8855920031CB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E255FF6A1C8855920031CB9F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		E255FF6B1C8855920031CB9F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E255FF6D1C8855920031CB9F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		E255FF6E1C8855920031CB9F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E255FF701C8855920031CB9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E255FF761C8855930031CB9F /* vs_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vs_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E255FF771C8855930031CB9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E255FF7F1C8855930031CB9F /* vs_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vs_testTests-Info.plist"; sourceTree = "<group>"; };
 		E255FF811C8855930031CB9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E255FF831C8855930031CB9F /* vs_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vs_testTests.m; sourceTree = "<group>"; };
+		E255FF8D1C885AC80031CB9F /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		E255FF8E1C885AC80031CB9F /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		E26C18B81CA5CC9E00E43DC8 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +144,25 @@
 				E255FF621C8855920031CB9F /* AppDelegate.m */,
 				E255FF641C8855920031CB9F /* Main_iPhone.storyboard */,
 				E255FF671C8855920031CB9F /* Main_iPad.storyboard */,
-				E255FF6A1C8855920031CB9F /* FirstViewController.h */,
-				E255FF6B1C8855920031CB9F /* FirstViewController.m */,
-				E255FF6D1C8855920031CB9F /* SecondViewController.h */,
-				E255FF6E1C8855920031CB9F /* SecondViewController.m */,
+				E255FF8D1C885AC80031CB9F /* TapViewController.h */,
+				E255FF8E1C885AC80031CB9F /* TapViewController.m */,
+				E26C18B71CA5CC9E00E43DC8 /* Data.xcdatamodeld */,
+				E2233B191CBDB21900A5AA68 /* TabBarControllerViewController.h */,
+				E2233B1A1CBDB21900A5AA68 /* TabBarControllerViewController.m */,
+				E251B68F1CA3F84400275B43 /* HomeViewController.h */,
+				E251B6901CA3F84400275B43 /* HomeViewController.m */,
+				E2233B161CBDB14100A5AA68 /* LoginViewController.h */,
+				E2233B171CBDB14100A5AA68 /* LoginViewController.m */,
+				E20E35CD1CC624BF00F8A06A /* HomeCell.h */,
+				E20E35CE1CC624BF00F8A06A /* HomeCell.m */,
+				E20A095E1CC98FCE008BEAF1 /* ConnectToServer.h */,
+				E20A095F1CC98FCE008BEAF1 /* ConnectToServer.m */,
+				E23A3C811CC0E4B400E44054 /* RegistrationViewController.h */,
+				E23A3C821CC0E4B400E44054 /* RegistrationViewController.m */,
+				E23A3C7E1CC0D76500E44054 /* PreferencesViewController.h */,
+				E23A3C7F1CC0D76500E44054 /* PreferencesViewController.m */,
+				E2233B131CBCF56800A5AA68 /* NSString+MD5.h */,
+				E2233B141CBCF56800A5AA68 /* NSString+MD5.m */,
 				E255FF701C8855920031CB9F /* Images.xcassets */,
 				E255FF591C8855920031CB9F /* Supporting Files */,
 			);
@@ -258,10 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E255FF6F1C8855920031CB9F /* SecondViewController.m in Sources */,
+				E2233B151CBCF56800A5AA68 /* NSString+MD5.m in Sources */,
 				E255FF631C8855920031CB9F /* AppDelegate.m in Sources */,
-				E255FF6C1C8855920031CB9F /* FirstViewController.m in Sources */,
+				E20E35CF1CC624BF00F8A06A /* HomeCell.m in Sources */,
 				E255FF5F1C8855920031CB9F /* main.m in Sources */,
+				E26C18B91CA5CC9E00E43DC8 /* Data.xcdatamodeld in Sources */,
+				E2233B1B1CBDB21900A5AA68 /* TabBarControllerViewController.m in Sources */,
+				E2233B181CBDB14100A5AA68 /* LoginViewController.m in Sources */,
+				E23A3C801CC0D76500E44054 /* PreferencesViewController.m in Sources */,
+				E20A09601CC98FCE008BEAF1 /* ConnectToServer.m in Sources */,
+				E23A3C831CC0E4B400E44054 /* RegistrationViewController.m in Sources */,
+				E255FF8F1C885AC80031CB9F /* TapViewController.m in Sources */,
+				E251B6921CA3F84400275B43 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +526,7 @@
 				E255FF891C8855930031CB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E255FF8A1C8855930031CB9F /* Build configuration list for PBXNativeTarget "vs_testTests" */ = {
 			isa = XCConfigurationList;
@@ -488,8 +535,22 @@
 				E255FF8C1C8855930031CB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E26C18B71CA5CC9E00E43DC8 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E26C18B81CA5CC9E00E43DC8 /* Data.xcdatamodel */,
+			);
+			currentVersion = E26C18B81CA5CC9E00E43DC8 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E255FF471C8855920031CB9F /* Project object */;
 }

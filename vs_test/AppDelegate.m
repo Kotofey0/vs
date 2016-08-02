@@ -1,4 +1,4 @@
-//
+ //
 //  AppDelegate.m
 //  vs_test
 //
@@ -7,15 +7,52 @@
 //
 
 #import "AppDelegate.h"
+#import "ConnectToServer.h"
 
 @implementation AppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    NSUserDefaults * userDefaults = [NSUserDefaults standardUserDefaults];
+
+    NSString * md5Password = [userDefaults objectForKey:@"password"];
+    NSString * username = [userDefaults objectForKey:@"username"];;
+
+    NSDictionary * loginData = [[NSDictionary alloc] initWithObjectsAndKeys:md5Password, @"pass", username, @"login", nil];
+
+    NSError * _err;
+
+    NSData * response = [ConnectToServer sendRequestToURL:@"http://www.work.p69e.com/melnis/ios/auth.php" withJSONDictionary:loginData];
+
+    NSDictionary * dict = [NSJSONSerialization JSONObjectWithData:response options:0 error:&_err];
+
+    NSString * responseString = [dict objectForKey:@"response"];
+    
+    auth = [responseString isEqualToString:@"suc"];
+
+    if(auth) self.window.rootViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+    else{
+
+        [self showLoginScreen:YES];
+
+    }
+
     return YES;
 }
-							
+
+- (void)showLoginScreen:(BOOL)animated{
+
+    UIViewController * rootController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"Login"];
+    UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:rootController];
+
+    self.window.rootViewController = navigation;
+
+
+
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
