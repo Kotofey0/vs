@@ -24,7 +24,7 @@
 
     NSError * _err;
 
-    NSData * response = [ConnectToServer sendRequestToURL:@"http://www.work.p69e.com/melnis/ios/auth.php" withJSONDictionary:loginData];
+    NSData * response = [ConnectToServer sendRequestToURL:@"http://work.p69e.com/melnis/ios/auth.php" withJSONDictionary:loginData];
 
     NSDictionary * dict = [NSJSONSerialization JSONObjectWithData:response options:0 error:&_err];
 
