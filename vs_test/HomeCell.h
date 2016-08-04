@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HomeCell : UITableViewCell
+#import "vs_test-swift-fixed.h"
+@interface HomeCell : UITableViewCell;
 @property (weak, nonatomic) IBOutlet UIImageView *imgView1;
 @property (weak, nonatomic) IBOutlet UIImageView *imgView2;
 @property (weak, nonatomic) IBOutlet UILabel *lable1;

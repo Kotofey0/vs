@@ -7,6 +7,7 @@
 //
 
 #import "HomeCell.h"
+#import "vs_test-Swift.h"
 
 @implementation HomeCell
 
